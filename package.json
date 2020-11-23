@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7"
   }
 }
