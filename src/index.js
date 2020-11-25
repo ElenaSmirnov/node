@@ -27,3 +27,19 @@ app.get("/", (req, res) => {
 app.listen(5000, () => {
     console.log("App is running on port 5000");
 });
+
+class User {
+  static hello = "hello";
+  constructor(name) {
+    this._name = name;
+  }
+
+  get name() {
+    return this._name;
+  }
+}
+
+const mango = new User(Mango);
+
+console.log(mango.name);
+
